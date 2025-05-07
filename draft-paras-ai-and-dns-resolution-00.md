@@ -65,7 +65,7 @@ Google DOH resolvers - https://dns.google/resolve?name=google.com&type=a&do=1
 
 JSON payload sent to notebookLLM 
     
-    Sample of Flags explained - Flags (TC, RD, RA, AD, CD): These are flags related to the DNS query and response process
+    Flags explained - Flags (TC, RD, RA, AD, CD): These are flags related to the DNS query and response process
    
     Response explained - Each entry includes a TTL (Time To Live) of 43. This means the information can be cached for 43 seconds before needing to be refreshed.
     The "data" field for each entry contains an IPv4 address. The source lists six different IPv4 addresses for "google.com." within the 192.178.218.x range.
