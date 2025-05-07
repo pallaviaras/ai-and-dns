@@ -62,6 +62,7 @@ The RFC proposes a new media type "application/dns-message-llm"  that will be se
 
 e.g
 Google DOH resolvers - https://dns.google/resolve?name=google.com&type=a&do=1
+
 JSON payload sent to notebookLLM 
     Sample of Flags explained
     Flags (TC, RD, RA, AD, CD): These are flags related to the DNS query and response process
